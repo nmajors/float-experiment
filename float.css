@@ -1,0 +1,47 @@
+body {
+  background-color: lightblue;
+  font-family: Helvetica;
+}
+
+main {
+  width: 460px;
+  border: 2px solid #000;
+  margin: 10px auto 0 auto;
+  background-color: #ccc;
+  padding: 20px;
+
+}
+
+.photo {
+  width:200px;
+  float: left;
+}
+
+.content {
+  width:240px;
+  float: left;
+  margin: 0 0 0 20px;
+}
+
+.content h1 {
+  margin: 0;
+}
+
+.content small {
+  font-size: .8rem;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.author {
+  margin-top: 50px;
+  float:right;
+}
+
+.author img {
+  border: 1px solid #000;
+}
+
+.clearfix {
+  clear: both;
+}
