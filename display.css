@@ -1,0 +1,35 @@
+* {
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width:50%;
+}
+
+
+.container .experiment {
+  height: 100px;
+  background-color: #888;
+}
+
+span {
+  background-color:goldenrod;
+  display: none;
+  /*display: block makes inline element behave like block element*/
+  margin: 10px 0;
+}
+
+p {
+  width: 200px;
+  display: inline-block;
+  vertical-align:top;
+}
+
+p.no-margin {
+  margin: 0;
+}
+
+/*only img has display default as inline-block*/
+/* p.no-margin means only paragraph with .no-margin
