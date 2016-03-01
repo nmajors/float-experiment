@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+#box {
+  width: 190px;
+  height: 170px;
+  background-color: #000;
+  margin: 1px 2px 3px 4px;
+  padding: 30px 0 0 10px;
+  border-top:10px solid red;
+}
+
+#box h1 {
+  color:#fff;
+}
+
+
+
+/* Margin is like personal space
+Padding like a fat suit
+command / in atom for comment
+to add padding without changing size of div, subtract height and width
+only for block level elements, not inline elements
+
+
+*/
